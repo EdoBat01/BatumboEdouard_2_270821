@@ -113,3 +113,17 @@ header nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#search-section {
+    display: flex;
+    height: 40px;
+    margin-top: 15px;
+}
+.search-bar {
+    display: flex;
+    justify-content: flex-start;
+}
+.rechercher {
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
