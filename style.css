@@ -127,3 +127,17 @@ header nav {
     background-color: #0065FC;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: bold;
+}
+.rechercher_loupe {
+    display: none;
+}
+/*Filtres*/
+
+#filtres-section {
+    display: flex;
