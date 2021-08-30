@@ -91,3 +91,25 @@ header nav {
 }
 .titre_principal {
     display: flex;
+    flex-direction: column;
+}
+.titre_trouvez {
+    margin-bottom: 14px;
+}
+/*Barre de recherche*/
+
+.gps-logo {
+    position: relative;
+    height: 40px;
+    background-color: #F2F2F2;
+    width: 54px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.fa-map-marker-alt {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
