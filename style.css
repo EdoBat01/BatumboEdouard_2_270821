@@ -141,3 +141,18 @@ header nav {
 
 #filtres-section {
     display: flex;
+    /*Filtres*/
+
+#filtres-section {
+    display: flex;
+    align-items: center;
+    margin: 32px 0px 41px 0px;
+}
+.filtre-bouton {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 25px;
+    flex-wrap: wrap;
+
+}
