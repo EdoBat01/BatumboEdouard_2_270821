@@ -156,3 +156,18 @@ header nav {
     flex-wrap: wrap;
 
 }
+.circle-icon-filter {
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+.filtre {
+    display: flex;
+    flex-wrap: wrap;
