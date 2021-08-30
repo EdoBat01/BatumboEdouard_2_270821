@@ -51,3 +51,21 @@ header {
 .navigation {
     display: flex;
 }
+nav a {
+    font-size: 0.9em;
+    color: black;
+    padding-top: 3px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+a:hover {
+    text-decoration: #0065FC;
+    color: #0065FC;
+}
+header nav a {
+    margin-left: 20px;
+}
