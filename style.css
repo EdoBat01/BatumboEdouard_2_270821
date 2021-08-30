@@ -6,20 +6,24 @@
     src: url('static/Raleway-Black.ttf'),
         url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
 }
+
 * {
     font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
+
 /*General*/
 * {
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1350px;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
+
 h1 {
     font-size: large;
 }
@@ -31,6 +35,9 @@ p {
 h3 {
     font-weight: bold;
 }
+
+/* Header*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -48,34 +55,42 @@ header {
 .fas {
     color: #0065fc;
 }
+
 .navigation {
     display: flex;
 }
+
 nav a {
     font-size: 0.9em;
     color: black;
     padding-top: 3px;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
     color: black;
     font-style: normal;
 }
+
 a:hover {
     text-decoration: #0065FC;
     color: #0065FC;
 }
+
 header nav a {
     margin-left: 20px;
 }
+
 header nav {
     display: flex;
     align-items: center;
 }
+
 .hebergements-activites a:hover {
     border-top: 3px solid #0065FC;
 }
+
 .headersignup {
     color: #0065FC;
     font-weight: bold;
@@ -83,19 +98,23 @@ header nav {
 }
 
 /*Titre principal*/
+
 .header_2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 .titre_principal {
     display: flex;
     flex-direction: column;
 }
+
 .titre_trouvez {
     margin-bottom: 14px;
 }
+
 /*Barre de recherche*/
 
 .gps-logo {
@@ -113,61 +132,15 @@ header nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+ 
 }
 #search-section {
     display: flex;
     height: 40px;
     margin-top: 15px;
 }
+
 .search-bar {
     display: flex;
     justify-content: flex-start;
 }
-.rechercher {
-    background-color: #0065FC;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 30%;
-    height: 40px;
-    border: none;
-    color: white;
-    outline: none;
-    font-weight: bold;
-}
-.rechercher_loupe {
-    display: none;
-}
-/*Filtres*/
-
-#filtres-section {
-    display: flex;
-    /*Filtres*/
-
-#filtres-section {
-    display: flex;
-    align-items: center;
-    margin: 32px 0px 41px 0px;
-}
-.filtre-bouton {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin-left: 25px;
-    flex-wrap: wrap;
-
-}
-.circle-icon-filter {
-    width: 50px;
-    height: 50px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 2px;
-    left: 1px;
-}
-.filtre {
-    display: flex;
-    flex-wrap: wrap;
