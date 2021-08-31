@@ -134,35 +134,3 @@ header nav {
     transform: translate(-50%, -50%);
  
 }
-#search-section {
-    display: flex;
-    height: 40px;
-    margin-top: 15px;
-}
-
-.search-bar {
-    display: flex;
-    justify-content: flex-start;
-}
-.rechercher {
-    background-color: #0065FC;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 30%;
-    height: 40px;
-    border: none;
-    color: white;
-    outline: none;
-    font-weight: bold;
-}
-
-.rechercher_loupe {
-    display: none;
-}
-/*Filtres*/
-
-#filtres-section {
-    display: flex;
-    align-items: center;
-   
-}
