@@ -159,3 +159,10 @@ header nav {
 .rechercher_loupe {
     display: none;
 }
+/*Filtres*/
+
+#filtres-section {
+    display: flex;
+    align-items: center;
+   
+}
