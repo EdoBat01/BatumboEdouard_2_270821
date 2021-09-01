@@ -10,7 +10,6 @@
 * {
     font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
-
 /*General*/
 * {
     margin: 0;
@@ -27,7 +26,6 @@
 h1 {
     font-size: large;
 }
-
 p {
     font-size: small;
 }
@@ -35,7 +33,6 @@ p {
 h3 {
     font-weight: bold;
 }
-
 /* Header*/
 
 header {
@@ -44,13 +41,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
-}
-
-.headernavlink {
-    padding-top: 30px;
-}
-
-/*Navigation*/
+    }
+    .headernavlink {
+        padding-top: 30px;
+    }
+    /*Navigation*/
 
 .fas {
     color: #0065fc;
@@ -113,24 +108,4 @@ header nav {
 
 .titre_trouvez {
     margin-bottom: 14px;
-}
-
-/*Barre de recherche*/
-
-.gps-logo {
-    position: relative;
-    height: 40px;
-    background-color: #F2F2F2;
-    width: 54px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-}
-.fa-map-marker-alt {
-    position: absolute;
-    color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- 
 }
