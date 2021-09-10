@@ -76,6 +76,7 @@ a {
 a:hover {
     text-decoration: #0065FC;
     color: #0065FC;
+    transform: scale(1.02);
 }
 
 header nav a {
@@ -89,8 +90,16 @@ header nav {
 
 .hebergements-activites a:hover {
    border-top: 3px solid #0065FC;
+   transform: scale(1.02);
     
 }
+
+.Activites_à_Marselle a:hover {
+    border-top: 3px solid #0065FC;
+    transform: scale(1.02);
+     
+ }
+ 
 
 .headersignup {
     color: #0065FC;
@@ -235,6 +244,7 @@ h3 {
 
 .filtre-bouton:hover {
    color: #0065FC;
+   transform: scale(1.02);
 }
 
 .fas.fa-info-circle {
@@ -910,10 +920,12 @@ footer h2 {
         .hebergements-activites:hover {
             border-bottom: 3px solid #0065FC;
             color: #0065FC;
+            transform: scale(1.02);
         }
 
         .hebergements-activites a:hover {
             border-top: none;
+            transform: scale(1.02);
         }
 
     }
