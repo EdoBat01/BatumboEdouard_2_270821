@@ -8,7 +8,7 @@
 }
 
 * {
-    font-family: 'Raleway'
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
 }
 
 /*General*/
@@ -181,7 +181,7 @@ header nav {
 
 }
 
-.z
+.circle-icon-filter {
     width: 50px;
     height: 50px;
     background-color: #DEEBFF;
@@ -416,7 +416,7 @@ h3 {
 }
 
 .titre_activites {
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     font-size: large;
 }
 
@@ -635,7 +635,7 @@ footer h2 {
 
 }
 
-@media all and (max-width : 1060px) {
+@media all and (max-width : 1006px) {
 
     .a_propos {
         margin-bottom: 20px;
@@ -900,7 +900,6 @@ footer h2 {
         .titre_activite5,
         .titre_activite6 {
             margin-left: 15px;
-           
         }
 
         .hebergements-activites {
