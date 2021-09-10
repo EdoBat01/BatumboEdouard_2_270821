@@ -88,7 +88,8 @@ header nav {
 }
 
 .hebergements-activites a:hover {
-    border-top: 3px solid #0065FC;
+   border-top: 3px solid #0065FC;
+    
 }
 
 .headersignup {
@@ -233,8 +234,7 @@ h3 {
 }
 
 .filtre-bouton:hover {
-    text-decoration: underline;
-    color: #0065FC;
+   color: #0065FC;
 }
 
 .fas.fa-info-circle {
@@ -404,7 +404,7 @@ h3 {
     max-height: 15px;
 }
 
-/*Activités à Marseille*/
+/*Activites à Marseille*/
 
 #Activites_à_Marseille {
     background-color: white;
@@ -468,11 +468,11 @@ h3 {
     border-top-right-radius: 10px;
 }
 
-#Activités_à_Marseille h1 {
+#Activites_à_Marseille h1 {
     font-size: large;
 }
 
-#Activités_à_Marseille h2 {
+#Activites_à_Marseille h2 {
     font-size: medium;
 }
 
@@ -590,7 +590,7 @@ footer h2 {
         height: 391px;
     }
 
-    #Activités_à_Marseille {
+    #Activites_à_Marseille {
         margin-left: 45px;
     }
 
@@ -656,7 +656,7 @@ footer h2 {
             width: 145px;
         }
 
-        #Activités_à_Marseille {
+        #Activites_à_Marseille {
             margin-left: 50px;
         }
 
@@ -715,7 +715,7 @@ footer h2 {
             justify-content: space-around;
         }
 
-        #Activités_à_Marseille {
+        #Activites_à_Marseille {
             margin-left: 0px;
         }
 
@@ -919,7 +919,7 @@ footer h2 {
     }
 
     @media all and (max-width : 375px) {
-        #Activités_à_Marseille {
+        #Activites_à_Marseille {
             margin-left: 50px;
         }
 
@@ -989,7 +989,7 @@ footer h2 {
             max-width: 270px;
         }
 
-        #Activités_à_Marseille {
+        #Activites_à_Marseille {
             margin-left: 30px;
         }
 
@@ -1020,7 +1020,7 @@ footer h2 {
             padding-right: 5px;
         }
 
-        #Activités_à_Marseille {
+        #Activites_à_Marseille {
             margin-left: 40px;
         }
 
