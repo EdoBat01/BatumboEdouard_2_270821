@@ -181,7 +181,7 @@ header nav {
 
 }
 
-.circle-icon-filter {
+.z
     width: 50px;
     height: 50px;
     background-color: #DEEBFF;
@@ -635,7 +635,7 @@ footer h2 {
 
 }
 
-@media all and (max-width : 1006px) {
+@media all and (max-width : 1060px) {
 
     .a_propos {
         margin-bottom: 20px;
