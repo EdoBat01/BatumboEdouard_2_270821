@@ -76,7 +76,10 @@ a {
 a:hover {
     text-decoration: #0065FC;
     color: #0065FC;
-    transform: scale(1.02);
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+
+
 }
 
 header nav a {
@@ -90,13 +93,17 @@ header nav {
 
 .hebergements-activites a:hover {
    border-top: 3px solid #0065FC;
-   transform: scale(1.02);
+   transition-delay: 0s;
+   transition-duration: 0.4s;
+
     
 }
 
 .Activites_à_Marselle a:hover {
     border-top: 3px solid #0065FC;
-    transform: scale(1.02);
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+
      
  }
  
@@ -220,8 +227,7 @@ header nav {
 }
 
 .titre_filtres p {
-    font-weight: bold;
-}
+    font-weight: bold;hover}
 
 .fa-money-bill-wave,
 .fa-male,
@@ -244,7 +250,9 @@ h3 {
 
 .filtre-bouton:hover {
    color: #0065FC;
-   transform: scale(1.02);
+   transition-delay: 0s;
+   transition-duration: 0.4s;
+
 }
 
 .fas.fa-info-circle {
@@ -920,12 +928,16 @@ footer h2 {
         .hebergements-activites:hover {
             border-bottom: 3px solid #0065FC;
             color: #0065FC;
-            transform: scale(1.02);
+            transition-delay: 0s;
+            transition-duration: 0.4s;
+
         }
 
         .hebergements-activites a:hover {
             border-top: none;
-            transform: scale(1.02);
+            transition-delay: 0s;
+            transition-duration: 0.4s;
+
         }
 
     }
