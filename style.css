@@ -2,7 +2,8 @@
 
 /*Téléchargement de la police Raleway*/
     {
-    font-family: 'Raleway';
+   
+    font-family: 'Raleway', sans-serif;
     src: url('static/Raleway-Black.ttf'),
         url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
 }
@@ -300,7 +301,7 @@ h3 {
     border: 3px solid white;
     border-radius: 20px;
     padding: 5px 5px 10px 5px;
-    background-color: #123c55;
+    background-color: #f2f2f2;
     max-width: 236px;
     margin-bottom: 28px;
 
@@ -388,7 +389,7 @@ h3 {
     border: 3px solid white;
     border-radius: 20px;
     display: flex;
-    background-color: #123c55;
+    background-color: #f2f2f2;
     padding: 6px 58px 6px 6px;
     max-width: 284px;
     max-height: 135px;
